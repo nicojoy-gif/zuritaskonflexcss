@@ -4,12 +4,10 @@ body{
     width: 100%;
     font-size: 14px;
     font-family: "Poppins", sans-serif;
-
 }
 .container{
     height: 100%;
     width: 100%;
-    
     background-image:  url("bg-intro-desktop.png"), linear-gradient( hsl(0, 100%, 74%), hsl(0, 100%, 74%));
     background-position: center;
     background-repeat: no-repeat;
@@ -22,9 +20,6 @@ body{
 }
 .flex-container{
     max-width: max-content;
-   
-   
-
 }
 h1{
     font-weight: 700;
@@ -43,11 +38,10 @@ input{
     border: 1px solid hsl(246, 25%, 77%);
     margin: 10px auto;
     font-weight: 600;
-    
 }
 input:focus{
     border:1px solid hsl(0, 100%, 74%);
-outline: none;
+    outline: none;
     color: hsl(0, 100%, 74%);
 }
 
@@ -56,7 +50,7 @@ outline: none;
     width: 82%;
     color: white;
     font-weight: 400;
-    font-size: 10px;
+    font-size: 9px;
     text-align: center;
 }
 fieldset{
