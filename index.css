@@ -1,0 +1,97 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+.container{
+    background-color: rgba(242, 242, 242, 0.989);
+    height: 85vh;
+    width: 70%;
+    min-width: 500px;
+    max-width: 70%;
+    margin:50px auto;
+    display: flex;
+}
+
+.flex-container{
+    width: 100%;
+    max-width: 650px;
+    min-width: 250px;
+    height: 70vh;
+    min-height: 400px;
+    max-height: 700px;
+    border-radius: 10px;
+    margin: auto;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+}
+.column{
+    flex-direction: row;
+    width: 100%;
+    color: lightgrey;
+    height: 48vh;
+    max-height: 48vh;
+    min-height: 300px;
+    font-size: 15px;
+    margin: auto;
+    padding: 30px;
+    
+    
+}
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    color:  rgba(242, 242, 242, 0.989);;
+}
+
+p{
+font-family: 'Lexend', sans-serif;
+font-weight: 400;
+color: rgba(255, 255, 255, 0.953);
+
+}
+.sedan{
+background-color: hsl(31, 77%, 52%);
+}
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+}
+button{
+    border-radius: 25px;
+    padding: 10px 14px;
+    border: none;
+    margin-top: 20px;
+    background-color:  rgba(242, 242, 242, 0.989);;
+    
+}
+button:hover{
+    cursor: pointer;
+    color: white;
+    border: 2px solid white;
+}
+.one{
+    color: hsl(31, 77%, 52%);
+}
+.one:hover{
+    background-color: hsl(31, 77%, 52%);
+}
+.two{
+    color: hsl(184, 100%, 22%);
+}
+.two:hover{
+    background-color: hsl(184, 100%, 22%);
+}
+.three{
+    color: hsl(179, 100%, 13%);
+}
+.three:hover{
+    background-color: hsl(179, 100%, 13%);
+}
