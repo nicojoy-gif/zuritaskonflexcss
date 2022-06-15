@@ -19,7 +19,7 @@ body{
     
 }
 .flex-container{
-    max-width: max-content;
+    min-width: 375px;
 }
 h1{
     font-weight: 700;
@@ -78,7 +78,7 @@ a{
     text-align: center;
     color: white;
 }
-@media only screen and (min-width:450px) and (max-width: 1440px){
+@media only screen and (min-width:376px) and (max-width: 1440px){
 .flex-container{
     display: flex;
    flex-direction: row;
